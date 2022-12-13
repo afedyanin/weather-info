@@ -146,8 +146,6 @@ REST API приложения. Реализует два контроллера
 
 ![image](Demo01.png)
 
-![image](Demo02.png)
-
 ![image](Demo03.png)
 
 
