@@ -144,11 +144,9 @@ REST API приложения. Реализует два контроллера
 Логика клинтской части реализована в **Index.razor.cs**
 
 
-![image](Demo01.png)
+![image](Demo001.png)
 
-![image](Demo02.png)
-
-![image](Demo03.png)
+![image](Demo003.png)
 
 
 ## Ограничения и допущения при расчете метеоданных
