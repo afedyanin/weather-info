@@ -1,0 +1,32 @@
+@using WeatherDemo.WebUI.Blazor.Pages
+
+@inherits LayoutComponentBase
+
+<div class="site-header">
+    <div class="container">
+        <a href="" class="branding">
+            <img src="images/logo.png" alt="" class="logo">
+            <div class="logo-type">
+                <h1 class="site-title">Погода</h1>
+                <small class="site-description">мы знаем о погоде все</small>
+            </div>
+        </a>
+
+        <div class="main-navigation">
+            <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+            <ul class="menu">
+                <li class="menu-item current-menu-item"><a href="">Домой</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-navigation"></div>
+
+    </div>
+</div>
+
+<div class="site-content">
+    @Body
+</div>
+<footer class="site-footer">
+    <PageFooter />
+</footer>

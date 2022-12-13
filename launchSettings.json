@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "weatherdemo-webui-blazor",
+      "composeLaunchUrl": "http://localhost:8585",
+      "serviceActions": {
+        "weatherdemo-webapi": "StartDebugging",
+        "weatherdemo-webui-blazor": "StartDebugging"
+      }
+    }
+  }
+}

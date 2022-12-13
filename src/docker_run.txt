@@ -1,0 +1,7 @@
+docker run --hostname=3a231c213599 --env=ASPNETCORE_URLS=http://+:80 --env=ASPNETCORE_ENVIRONMENT=Development --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin --env=DOTNET_RUNNING_IN_CONTAINER=true --env=DOTNET_VERSION=7.0.0 --env=ASPNET_VERSION=7.0.0 --env=OpenWeatherMap:ApiKey=969269ed940607cd2c3a9048c963c9e2 --network=weather-demo_default --workdir=/app -p 8686:80 --runtime=runc -d weatherdemowebapi
+
+docker run --hostname=9c462078c817 --env=ASPNETCORE_URLS=http://+:80  --env=ASPNETCORE_ENVIRONMENT=Development --env=NGINX_VERSION=1.23.2 --env=NJS_VERSION=0.7.7 --env=PKG_RELEASE=1 --workdir=/usr/share/nginx/html -p 8585:80 --runtime=runc -d weatherdemowebuiblazor
+
+
+https://www.baeldung.com/ops/docker-compose
+

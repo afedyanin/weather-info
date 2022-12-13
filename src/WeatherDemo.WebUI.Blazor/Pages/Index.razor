@@ -1,0 +1,64 @@
+@page "/"
+@using Microsoft.AspNetCore.Components.Forms
+@using WeatherDemo.WebApi.Client.Models
+
+@if (_weather == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="hero" style="background-image: url(@_imageDto!.Url);">
+        <div class="container">
+            <EditForm class="find-location" Model="@_searchForm" OnValidSubmit="@OnSearchSubmit" >
+                <InputText class="find-location-input" @bind-Value="_searchForm!.SearchText" placeholder="Найдите свой город..." />
+                <input type="submit" value="Найти" />
+            </EditForm>
+
+        </div>
+    </div>
+    <div class="forecast-table">
+        <div class="container">
+            <div class="forecast-container">
+                <div class="today forecast">
+                    <div class="forecast-header">
+                        <div class="day">@_weather.DayOfWeek</div>
+                        <div class="date">@_weather.DayWithMonth</div>
+                    </div>
+                    <div class="forecast-content">
+                        <div class="location">@_weather.GeoLocation.Name</div>
+                        <div class="degree">
+                            <div class="num">@_weather.Temp<sup>o</sup>C</div>
+                            <div class="forecast-icon">
+                                <img src="@_weather.ConditionIconName" alt="" width=90>
+                            </div>
+                        </div>
+                        <span><img src="images/icon-umberella.png" alt="">@_weather.PoP %</span>
+                        <span><img src="images/icon-wind.png" alt="">@_weather.WindSpeed м/с</span>
+                        <span><img src="images/icon-compass.png" alt="">@_weather.WindDirection</span>
+                    </div>
+                </div>
+
+                @foreach (var day in _weather.Days)
+                {
+                    <div class="forecast">
+                        <div class="forecast-header">
+                            <div class="day">@day.DayOfWeek</div>
+                        </div>
+                        <div class="forecast-content">
+                            <div class="forecast-icon">
+                                <img src="@day.ConditionIconName" alt="" width=48>
+                            </div>
+                            <div class="degree">@day.TempMax<sup>o</sup>C</div>
+                            <small>@day.TempMin<sup>o</sup></small>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    
+    <div hidden>@_message</div>
+}
+
+

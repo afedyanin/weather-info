@@ -1,0 +1,2001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CurrentWeatherMos161122" xml:space="preserve">
+    <value>{
+  "coord": {
+    "lon": 37.6156,
+    "lat": 55.7522
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 270,
+    "feels_like": 267.57,
+    "temp_min": 267.9,
+    "temp_max": 270.58,
+    "pressure": 1016,
+    "humidity": 79,
+    "sea_level": 1016,
+    "grnd_level": 997
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.64,
+    "deg": 40,
+    "gust": 4.07
+  },
+  "clouds": {
+    "all": 6
+  },
+  "dt": 1668611523,
+  "sys": {
+    "type": 2,
+    "id": 2018597,
+    "country": "RU",
+    "sunrise": 1668575188,
+    "sunset": 1668604938
+  },
+  "timezone": 10800,
+  "id": 524901,
+  "name": "Moscow",
+  "cod": 200
+}</value>
+  </data>
+  <data name="Forecast5DaysMos161122" xml:space="preserve">
+    <value>{
+  "cod": "200",
+  "message": 0,
+  "cnt": 40,
+  "list": [
+    {
+      "dt": 1668621600,
+      "main": {
+        "temp": 269.96,
+        "feels_like": 268,
+        "temp_min": 269.94,
+        "temp_max": 269.96,
+        "pressure": 1016,
+        "sea_level": 1016,
+        "grnd_level": 996,
+        "humidity": 80,
+        "temp_kf": 0.02
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 6
+      },
+      "wind": {
+        "speed": 1.37,
+        "deg": 42,
+        "gust": 2.45
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-16 18:00:00"
+    },
+    {
+      "dt": 1668632400,
+      "main": {
+        "temp": 269.72,
+        "feels_like": 269.72,
+        "temp_min": 269.6,
+        "temp_max": 269.72,
+        "pressure": 1015,
+        "sea_level": 1015,
+        "grnd_level": 996,
+        "humidity": 81,
+        "temp_kf": 0.12
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 11
+      },
+      "wind": {
+        "speed": 0.91,
+        "deg": 11,
+        "gust": 1.11
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-16 21:00:00"
+    },
+    {
+      "dt": 1668643200,
+      "main": {
+        "temp": 269.93,
+        "feels_like": 269.93,
+        "temp_min": 269.93,
+        "temp_max": 269.93,
+        "pressure": 1015,
+        "sea_level": 1015,
+        "grnd_level": 995,
+        "humidity": 76,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03n"
+        }
+      ],
+      "clouds": {
+        "all": 39
+      },
+      "wind": {
+        "speed": 0.98,
+        "deg": 348,
+        "gust": 1.52
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-17 00:00:00"
+    },
+    {
+      "dt": 1668654000,
+      "main": {
+        "temp": 269.7,
+        "feels_like": 269.7,
+        "temp_min": 269.7,
+        "temp_max": 269.7,
+        "pressure": 1013,
+        "sea_level": 1013,
+        "grnd_level": 994,
+        "humidity": 79,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 0.93,
+        "deg": 9,
+        "gust": 1.25
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-17 03:00:00"
+    },
+    {
+      "dt": 1668664800,
+      "main": {
+        "temp": 269.55,
+        "feels_like": 269.55,
+        "temp_min": 269.55,
+        "temp_max": 269.55,
+        "pressure": 1013,
+        "sea_level": 1013,
+        "grnd_level": 993,
+        "humidity": 90,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 0.96,
+        "deg": 138,
+        "gust": 1.09
+      },
+      "visibility": 1144,
+      "pop": 0.2,
+      "snow": {
+        "3h": 0.13
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-17 06:00:00"
+    },
+    {
+      "dt": 1668675600,
+      "main": {
+        "temp": 270.21,
+        "feels_like": 267.32,
+        "temp_min": 270.21,
+        "temp_max": 270.21,
+        "pressure": 1012,
+        "sea_level": 1012,
+        "grnd_level": 993,
+        "humidity": 87,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.96,
+        "deg": 119,
+        "gust": 2.7
+      },
+      "visibility": 1202,
+      "pop": 0.36,
+      "snow": {
+        "3h": 0.37
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-17 09:00:00"
+    },
+    {
+      "dt": 1668686400,
+      "main": {
+        "temp": 270.38,
+        "feels_like": 266.47,
+        "temp_min": 270.38,
+        "temp_max": 270.38,
+        "pressure": 1012,
+        "sea_level": 1012,
+        "grnd_level": 993,
+        "humidity": 87,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 2.85,
+        "deg": 78,
+        "gust": 4.89
+      },
+      "visibility": 1443,
+      "pop": 0.2,
+      "snow": {
+        "3h": 0.19
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-17 12:00:00"
+    },
+    {
+      "dt": 1668697200,
+      "main": {
+        "temp": 269.98,
+        "feels_like": 264.87,
+        "temp_min": 269.98,
+        "temp_max": 269.98,
+        "pressure": 1013,
+        "sea_level": 1013,
+        "grnd_level": 993,
+        "humidity": 79,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 4.14,
+        "deg": 65,
+        "gust": 8.36
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-17 15:00:00"
+    },
+    {
+      "dt": 1668708000,
+      "main": {
+        "temp": 268.54,
+        "feels_like": 262.77,
+        "temp_min": 268.54,
+        "temp_max": 268.54,
+        "pressure": 1013,
+        "sea_level": 1013,
+        "grnd_level": 993,
+        "humidity": 71,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 91
+      },
+      "wind": {
+        "speed": 4.56,
+        "deg": 55,
+        "gust": 9.71
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-17 18:00:00"
+    },
+    {
+      "dt": 1668718800,
+      "main": {
+        "temp": 268.05,
+        "feels_like": 261.97,
+        "temp_min": 268.05,
+        "temp_max": 268.05,
+        "pressure": 1012,
+        "sea_level": 1012,
+        "grnd_level": 993,
+        "humidity": 81,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 86
+      },
+      "wind": {
+        "speed": 4.83,
+        "deg": 45,
+        "gust": 10.62
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-17 21:00:00"
+    },
+    {
+      "dt": 1668729600,
+      "main": {
+        "temp": 268.1,
+        "feels_like": 261.75,
+        "temp_min": 268.1,
+        "temp_max": 268.1,
+        "pressure": 1011,
+        "sea_level": 1011,
+        "grnd_level": 992,
+        "humidity": 86,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 92
+      },
+      "wind": {
+        "speed": 5.26,
+        "deg": 40,
+        "gust": 11.35
+      },
+      "visibility": 2860,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-18 00:00:00"
+    },
+    {
+      "dt": 1668740400,
+      "main": {
+        "temp": 267.78,
+        "feels_like": 261.13,
+        "temp_min": 267.78,
+        "temp_max": 267.78,
+        "pressure": 1010,
+        "sea_level": 1010,
+        "grnd_level": 991,
+        "humidity": 86,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 5.6,
+        "deg": 40,
+        "gust": 12.25
+      },
+      "visibility": 2865,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-18 03:00:00"
+    },
+    {
+      "dt": 1668751200,
+      "main": {
+        "temp": 268.05,
+        "feels_like": 261.36,
+        "temp_min": 268.05,
+        "temp_max": 268.05,
+        "pressure": 1009,
+        "sea_level": 1009,
+        "grnd_level": 990,
+        "humidity": 86,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 5.78,
+        "deg": 39,
+        "gust": 12.8
+      },
+      "visibility": 4928,
+      "pop": 0.2,
+      "snow": {
+        "3h": 0.13
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-18 06:00:00"
+    },
+    {
+      "dt": 1668762000,
+      "main": {
+        "temp": 269.32,
+        "feels_like": 262.83,
+        "temp_min": 269.32,
+        "temp_max": 269.32,
+        "pressure": 1008,
+        "sea_level": 1008,
+        "grnd_level": 989,
+        "humidity": 83,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 6.01,
+        "deg": 38,
+        "gust": 12.84
+      },
+      "visibility": 6166,
+      "pop": 0.04,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-18 09:00:00"
+    },
+    {
+      "dt": 1668772800,
+      "main": {
+        "temp": 269.68,
+        "feels_like": 263.12,
+        "temp_min": 269.68,
+        "temp_max": 269.68,
+        "pressure": 1007,
+        "sea_level": 1007,
+        "grnd_level": 987,
+        "humidity": 90,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 6.33,
+        "deg": 32,
+        "gust": 13.9
+      },
+      "visibility": 375,
+      "pop": 0.3,
+      "snow": {
+        "3h": 0.22
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-18 12:00:00"
+    },
+    {
+      "dt": 1668783600,
+      "main": {
+        "temp": 269.63,
+        "feels_like": 263.05,
+        "temp_min": 269.63,
+        "temp_max": 269.63,
+        "pressure": 1006,
+        "sea_level": 1006,
+        "grnd_level": 987,
+        "humidity": 94,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 6.33,
+        "deg": 33,
+        "gust": 15.11
+      },
+      "visibility": 156,
+      "pop": 1,
+      "snow": {
+        "3h": 2.09
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-18 15:00:00"
+    },
+    {
+      "dt": 1668794400,
+      "main": {
+        "temp": 269.99,
+        "feels_like": 263.68,
+        "temp_min": 269.99,
+        "temp_max": 269.99,
+        "pressure": 1006,
+        "sea_level": 1006,
+        "grnd_level": 986,
+        "humidity": 95,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 6.01,
+        "deg": 44,
+        "gust": 14.54
+      },
+      "visibility": 146,
+      "pop": 1,
+      "snow": {
+        "3h": 3.56
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-18 18:00:00"
+    },
+    {
+      "dt": 1668805200,
+      "main": {
+        "temp": 270.47,
+        "feels_like": 264.78,
+        "temp_min": 270.47,
+        "temp_max": 270.47,
+        "pressure": 1006,
+        "sea_level": 1006,
+        "grnd_level": 987,
+        "humidity": 96,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 5.16,
+        "deg": 58,
+        "gust": 13.07
+      },
+      "visibility": 136,
+      "pop": 1,
+      "snow": {
+        "3h": 4.55
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-18 21:00:00"
+    },
+    {
+      "dt": 1668816000,
+      "main": {
+        "temp": 270.75,
+        "feels_like": 265.23,
+        "temp_min": 270.75,
+        "temp_max": 270.75,
+        "pressure": 1008,
+        "sea_level": 1008,
+        "grnd_level": 988,
+        "humidity": 96,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 5,
+        "deg": 73,
+        "gust": 12.27
+      },
+      "visibility": 162,
+      "pop": 1,
+      "snow": {
+        "3h": 2.82
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-19 00:00:00"
+    },
+    {
+      "dt": 1668826800,
+      "main": {
+        "temp": 271,
+        "feels_like": 266.2,
+        "temp_min": 271,
+        "temp_max": 271,
+        "pressure": 1009,
+        "sea_level": 1009,
+        "grnd_level": 990,
+        "humidity": 97,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 4.03,
+        "deg": 91,
+        "gust": 10.37
+      },
+      "visibility": 125,
+      "pop": 1,
+      "snow": {
+        "3h": 2.34
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-19 03:00:00"
+    },
+    {
+      "dt": 1668837600,
+      "main": {
+        "temp": 270.42,
+        "feels_like": 266.46,
+        "temp_min": 270.42,
+        "temp_max": 270.42,
+        "pressure": 1012,
+        "sea_level": 1012,
+        "grnd_level": 993,
+        "humidity": 97,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 2.91,
+        "deg": 149,
+        "gust": 5.97
+      },
+      "visibility": 474,
+      "pop": 1,
+      "snow": {
+        "3h": 1.54
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-19 06:00:00"
+    },
+    {
+      "dt": 1668848400,
+      "main": {
+        "temp": 267.94,
+        "feels_like": 263.56,
+        "temp_min": 267.94,
+        "temp_max": 267.94,
+        "pressure": 1015,
+        "sea_level": 1015,
+        "grnd_level": 996,
+        "humidity": 93,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 72
+      },
+      "wind": {
+        "speed": 2.84,
+        "deg": 164,
+        "gust": 5.44
+      },
+      "visibility": 10000,
+      "pop": 0.4,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-19 09:00:00"
+    },
+    {
+      "dt": 1668859200,
+      "main": {
+        "temp": 267.68,
+        "feels_like": 263.35,
+        "temp_min": 267.68,
+        "temp_max": 267.68,
+        "pressure": 1017,
+        "sea_level": 1017,
+        "grnd_level": 998,
+        "humidity": 94,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "clouds": {
+        "all": 49
+      },
+      "wind": {
+        "speed": 2.75,
+        "deg": 137,
+        "gust": 6.48
+      },
+      "visibility": 10000,
+      "pop": 0.22,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-19 12:00:00"
+    },
+    {
+      "dt": 1668870000,
+      "main": {
+        "temp": 265.27,
+        "feels_like": 261.73,
+        "temp_min": 265.27,
+        "temp_max": 265.27,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 999,
+        "humidity": 97,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.87,
+        "deg": 109,
+        "gust": 4.7
+      },
+      "visibility": 8681,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-19 15:00:00"
+    },
+    {
+      "dt": 1668880800,
+      "main": {
+        "temp": 266.59,
+        "feels_like": 263.95,
+        "temp_min": 266.59,
+        "temp_max": 266.59,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1000,
+        "humidity": 96,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.48,
+        "deg": 99,
+        "gust": 4.16
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-19 18:00:00"
+    },
+    {
+      "dt": 1668891600,
+      "main": {
+        "temp": 268.1,
+        "feels_like": 268.1,
+        "temp_min": 268.1,
+        "temp_max": 268.1,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 1000,
+        "humidity": 97,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 0.93,
+        "deg": 59,
+        "gust": 1.91
+      },
+      "visibility": 129,
+      "pop": 0.98,
+      "snow": {
+        "3h": 1.65
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-19 21:00:00"
+    },
+    {
+      "dt": 1668902400,
+      "main": {
+        "temp": 268.89,
+        "feels_like": 268.89,
+        "temp_min": 268.89,
+        "temp_max": 268.89,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 999,
+        "humidity": 97,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.25,
+        "deg": 332,
+        "gust": 1.96
+      },
+      "visibility": 123,
+      "pop": 1,
+      "snow": {
+        "3h": 2.47
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-20 00:00:00"
+    },
+    {
+      "dt": 1668913200,
+      "main": {
+        "temp": 268.35,
+        "feels_like": 268.35,
+        "temp_min": 268.35,
+        "temp_max": 268.35,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 999,
+        "humidity": 98,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.3,
+        "deg": 317,
+        "gust": 1.59
+      },
+      "visibility": 799,
+      "pop": 0.86,
+      "snow": {
+        "3h": 1.04
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-20 03:00:00"
+    },
+    {
+      "dt": 1668924000,
+      "main": {
+        "temp": 267.07,
+        "feels_like": 267.07,
+        "temp_min": 267.07,
+        "temp_max": 267.07,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 999,
+        "humidity": 98,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13d"
+        }
+      ],
+      "clouds": {
+        "all": 99
+      },
+      "wind": {
+        "speed": 1.1,
+        "deg": 358,
+        "gust": 1.37
+      },
+      "visibility": 2088,
+      "pop": 0.72,
+      "snow": {
+        "3h": 0.19
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-20 06:00:00"
+    },
+    {
+      "dt": 1668934800,
+      "main": {
+        "temp": 269.58,
+        "feels_like": 269.58,
+        "temp_min": 269.58,
+        "temp_max": 269.58,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 999,
+        "humidity": 95,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 89
+      },
+      "wind": {
+        "speed": 0.08,
+        "deg": 247,
+        "gust": 0.42
+      },
+      "visibility": 6399,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-20 09:00:00"
+    },
+    {
+      "dt": 1668945600,
+      "main": {
+        "temp": 270.01,
+        "feels_like": 270.01,
+        "temp_min": 270.01,
+        "temp_max": 270.01,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 999,
+        "humidity": 92,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 93
+      },
+      "wind": {
+        "speed": 1.17,
+        "deg": 336,
+        "gust": 1.54
+      },
+      "visibility": 9090,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-20 12:00:00"
+    },
+    {
+      "dt": 1668956400,
+      "main": {
+        "temp": 269.46,
+        "feels_like": 269.46,
+        "temp_min": 269.46,
+        "temp_max": 269.46,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 999,
+        "humidity": 96,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.09,
+        "deg": 46,
+        "gust": 1.51
+      },
+      "visibility": 4804,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-20 15:00:00"
+    },
+    {
+      "dt": 1668967200,
+      "main": {
+        "temp": 269.38,
+        "feels_like": 269.38,
+        "temp_min": 269.38,
+        "temp_max": 269.38,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 999,
+        "humidity": 97,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 0.2,
+        "deg": 9,
+        "gust": 0.2
+      },
+      "visibility": 3037,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-20 18:00:00"
+    },
+    {
+      "dt": 1668978000,
+      "main": {
+        "temp": 269.31,
+        "feels_like": 269.31,
+        "temp_min": 269.31,
+        "temp_max": 269.31,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 999,
+        "humidity": 98,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 0.73,
+        "deg": 328,
+        "gust": 0.71
+      },
+      "visibility": 2080,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-20 21:00:00"
+    },
+    {
+      "dt": 1668988800,
+      "main": {
+        "temp": 268.96,
+        "feels_like": 268.96,
+        "temp_min": 268.96,
+        "temp_max": 268.96,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 998,
+        "humidity": 98,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.04,
+        "deg": 339,
+        "gust": 1.24
+      },
+      "visibility": 5095,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-21 00:00:00"
+    },
+    {
+      "dt": 1668999600,
+      "main": {
+        "temp": 268.51,
+        "feels_like": 268.51,
+        "temp_min": 268.51,
+        "temp_max": 268.51,
+        "pressure": 1018,
+        "sea_level": 1018,
+        "grnd_level": 999,
+        "humidity": 98,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.33,
+        "deg": 319,
+        "gust": 2.9
+      },
+      "visibility": 4694,
+      "pop": 0.34,
+      "snow": {
+        "3h": 0.16
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-21 03:00:00"
+    },
+    {
+      "dt": 1669010400,
+      "main": {
+        "temp": 266.92,
+        "feels_like": 264.35,
+        "temp_min": 266.92,
+        "temp_max": 266.92,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 999,
+        "humidity": 98,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.47,
+        "deg": 342,
+        "gust": 3.33
+      },
+      "visibility": 10000,
+      "pop": 0.16,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-21 06:00:00"
+    },
+    {
+      "dt": 1669021200,
+      "main": {
+        "temp": 269.17,
+        "feels_like": 265.67,
+        "temp_min": 269.17,
+        "temp_max": 269.17,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1000,
+        "humidity": 94,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 78
+      },
+      "wind": {
+        "speed": 2.29,
+        "deg": 327,
+        "gust": 4.15
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-21 09:00:00"
+    },
+    {
+      "dt": 1669032000,
+      "main": {
+        "temp": 269.08,
+        "feels_like": 265.55,
+        "temp_min": 269.08,
+        "temp_max": 269.08,
+        "pressure": 1021,
+        "sea_level": 1021,
+        "grnd_level": 1001,
+        "humidity": 93,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 79
+      },
+      "wind": {
+        "speed": 2.3,
+        "deg": 325,
+        "gust": 4.61
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-11-21 12:00:00"
+    },
+    {
+      "dt": 1669042800,
+      "main": {
+        "temp": 268.89,
+        "feels_like": 264.43,
+        "temp_min": 268.89,
+        "temp_max": 268.89,
+        "pressure": 1021,
+        "sea_level": 1021,
+        "grnd_level": 1001,
+        "humidity": 90,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 99
+      },
+      "wind": {
+        "speed": 3.1,
+        "deg": 358,
+        "gust": 4.8
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2022-11-21 15:00:00"
+    }
+  ],
+  "city": {
+    "id": 524901,
+    "name": "Moscow",
+    "coord": {
+      "lat": 55.7537,
+      "lon": 37.6199
+    },
+    "country": "RU",
+    "population": 1000000,
+    "timezone": 10800,
+    "sunrise": 1668575188,
+    "sunset": 1668604937
+  }
+}</value>
+  </data>
+  <data name="GeoDirectMoscow" xml:space="preserve">
+    <value>[
+  {
+    "name": "Moscow",
+    "local_names": {
+      "bs": "Moskva",
+      "os": "Мæскуы",
+      "ka": "მოსკოვი",
+      "sw": "Moscow",
+      "ht": "Moskou",
+      "hy": "Մոսկվա",
+      "nn": "Moskva",
+      "se": "Moskva",
+      "gl": "Moscova - Москва",
+      "bi": "Moskow",
+      "ku": "Moskow",
+      "tg": "Маскав",
+      "fr": "Moscou",
+      "ay": "Mosku",
+      "pl": "Moskwa",
+      "am": "ሞስኮ",
+      "ky": "Москва",
+      "st": "Moscow",
+      "bo": "མོ་སི་ཁོ།",
+      "io": "Moskva",
+      "jv": "Moskwa",
+      "kn": "ಮಾಸ್ಕೋ",
+      "ab": "Москва",
+      "fy": "Moskou",
+      "bg": "Москва",
+      "ak": "Moscow",
+      "gv": "Moscow",
+      "uz": "Moskva",
+      "tk": "Moskwa",
+      "la": "Moscua",
+      "qu": "Moskwa",
+      "vi": "Mát-xcơ-va",
+      "uk": "Москва",
+      "te": "మాస్కో",
+      "id": "Moskwa",
+      "su": "Moskwa",
+      "hr": "Moskva",
+      "my": "မော်စကိုမြို့",
+      "kv": "Мӧскуа",
+      "no": "Moskva",
+      "yo": "Mọsko",
+      "lv": "Maskava",
+      "kl": "Moskva",
+      "sm": "Moscow",
+      "ur": "ماسکو",
+      "ru": "Москва",
+      "mi": "Mohikau",
+      "oc": "Moscòu",
+      "he": "מוסקווה",
+      "be": "Масква",
+      "sr": "Москва",
+      "gn": "Mosku",
+      "ty": "Moscou",
+      "fo": "Moskva",
+      "ug": "Moskwa",
+      "da": "Moskva",
+      "li": "Moskou",
+      "kk": "Мәскеу",
+      "mk": "Москва",
+      "ia": "Moscova",
+      "lg": "Moosko",
+      "et": "Moskva",
+      "cu": "Москъва",
+      "br": "Moskov",
+      "ce": "Москох",
+      "sq": "Moska",
+      "ml": "മോസ്കോ",
+      "so": "Moskow",
+      "ie": "Moskwa",
+      "na": "Moscow",
+      "ja": "モスクワ",
+      "ch": "Moscow",
+      "pt": "Moscou",
+      "zh": "莫斯科",
+      "el": "Μόσχα",
+      "mr": "मॉस्को",
+      "yi": "מאסקווע",
+      "cy": "Moscfa",
+      "tr": "Moskova",
+      "af": "Moskou",
+      "ascii": "Moscow",
+      "ga": "Moscó",
+      "co": "Moscù",
+      "ca": "Moscou",
+      "eo": "Moskvo",
+      "eu": "Mosku",
+      "wo": "Mosku",
+      "feature_name": "Moscow",
+      "mt": "Moska",
+      "ms": "Moscow",
+      "es": "Moscú",
+      "sv": "Moskva",
+      "lt": "Maskva",
+      "kw": "Moskva",
+      "sl": "Moskva",
+      "th": "มอสโก",
+      "sh": "Moskva",
+      "kg": "Moskva",
+      "it": "Mosca",
+      "hi": "मास्को",
+      "nb": "Moskva",
+      "fi": "Moskova",
+      "bn": "মস্কো",
+      "wa": "Moscou",
+      "dv": "މޮސްކޯ",
+      "ln": "Moskú",
+      "fa": "مسکو",
+      "ta": "மாஸ்கோ",
+      "iu": "ᒨᔅᑯ",
+      "sg": "Moscow",
+      "vo": "Moskva",
+      "cv": "Мускав",
+      "ko": "모스크바",
+      "sc": "Mosca",
+      "ar": "موسكو",
+      "ba": "Мәскәү",
+      "an": "Moscú",
+      "mn": "Москва",
+      "ro": "Moscova",
+      "av": "Москва",
+      "cs": "Moskva",
+      "en": "Moscow",
+      "mg": "Moskva",
+      "ps": "مسکو",
+      "de": "Moskau",
+      "tl": "Moscow",
+      "za": "Moscow",
+      "nl": "Moskou",
+      "gd": "Moscobha",
+      "sk": "Moskva",
+      "dz": "མོསི་ཀོ",
+      "ss": "Moscow",
+      "az": "Moskva",
+      "hu": "Moszkva",
+      "is": "Moskva",
+      "tt": "Мәскәү",
+      "zu": "IMoskwa"
+    },
+    "lat": 55.7504461,
+    "lon": 37.6174943,
+    "country": "RU",
+    "state": "Moscow"
+  },
+  {
+    "name": "Moscow",
+    "local_names": {
+      "en": "Moscow",
+      "ru": "Москва"
+    },
+    "lat": 46.7323875,
+    "lon": -117.0001651,
+    "country": "US",
+    "state": "Idaho"
+  },
+  {
+    "name": "Moscow",
+    "lat": 45.071096,
+    "lon": -69.891586,
+    "country": "US",
+    "state": "Maine"
+  },
+  {
+    "name": "Moscow",
+    "lat": 35.0619984,
+    "lon": -89.4039612,
+    "country": "US",
+    "state": "Tennessee"
+  },
+  {
+    "name": "Moscow",
+    "lat": 39.5437014,
+    "lon": -79.0050273,
+    "country": "US",
+    "state": "Maryland"
+  }
+]</value>
+  </data>
+  <data name="MosLocalNames" xml:space="preserve">
+    <value>{
+      "bs": "Moskva",
+      "os": "Мæскуы",
+      "ka": "მოსკოვი",
+      "sw": "Moscow",
+      "ht": "Moskou",
+      "hy": "Մոսկվա",
+      "nn": "Moskva",
+      "se": "Moskva",
+      "gl": "Moscova - Москва",
+      "bi": "Moskow",
+      "ku": "Moskow",
+      "tg": "Маскав",
+      "fr": "Moscou",
+      "ay": "Mosku",
+      "pl": "Moskwa",
+      "am": "ሞስኮ",
+      "ky": "Москва",
+      "st": "Moscow",
+      "bo": "མོ་སི་ཁོ།",
+      "io": "Moskva",
+      "jv": "Moskwa",
+      "kn": "ಮಾಸ್ಕೋ",
+      "ab": "Москва",
+      "fy": "Moskou",
+      "bg": "Москва",
+      "ak": "Moscow",
+      "gv": "Moscow",
+      "uz": "Moskva",
+      "tk": "Moskwa",
+      "la": "Moscua",
+      "qu": "Moskwa",
+      "vi": "Mát-xcơ-va",
+      "uk": "Москва",
+      "te": "మాస్కో",
+      "id": "Moskwa",
+      "su": "Moskwa",
+      "hr": "Moskva",
+      "my": "မော်စကိုမြို့",
+      "kv": "Мӧскуа",
+      "no": "Moskva",
+      "yo": "Mọsko",
+      "lv": "Maskava",
+      "kl": "Moskva",
+      "sm": "Moscow",
+      "ur": "ماسکو",
+      "ru": "Москва",
+      "mi": "Mohikau",
+      "oc": "Moscòu",
+      "he": "מוסקווה",
+      "be": "Масква",
+      "sr": "Москва",
+      "gn": "Mosku",
+      "ty": "Moscou",
+      "fo": "Moskva",
+      "ug": "Moskwa",
+      "da": "Moskva",
+      "li": "Moskou",
+      "kk": "Мәскеу",
+      "mk": "Москва",
+      "ia": "Moscova",
+      "lg": "Moosko",
+      "et": "Moskva",
+      "cu": "Москъва",
+      "br": "Moskov",
+      "ce": "Москох",
+      "sq": "Moska",
+      "ml": "മോസ്കോ",
+      "so": "Moskow",
+      "ie": "Moskwa",
+      "na": "Moscow",
+      "ja": "モスクワ",
+      "ch": "Moscow",
+      "pt": "Moscou",
+      "zh": "莫斯科",
+      "el": "Μόσχα",
+      "mr": "मॉस्को",
+      "yi": "מאסקווע",
+      "cy": "Moscfa",
+      "tr": "Moskova",
+      "af": "Moskou",
+      "ascii": "Moscow",
+      "ga": "Moscó",
+      "co": "Moscù",
+      "ca": "Moscou",
+      "eo": "Moskvo",
+      "eu": "Mosku",
+      "wo": "Mosku",
+      "feature_name": "Moscow",
+      "mt": "Moska",
+      "ms": "Moscow",
+      "es": "Moscú",
+      "sv": "Moskva",
+      "lt": "Maskva",
+      "kw": "Moskva",
+      "sl": "Moskva",
+      "th": "มอสโก",
+      "sh": "Moskva",
+      "kg": "Moskva",
+      "it": "Mosca",
+      "hi": "मास्को",
+      "nb": "Moskva",
+      "fi": "Moskova",
+      "bn": "মস্কো",
+      "wa": "Moscou",
+      "dv": "މޮސްކޯ",
+      "ln": "Moskú",
+      "fa": "مسکو",
+      "ta": "மாஸ்கோ",
+      "iu": "ᒨᔅᑯ",
+      "sg": "Moscow",
+      "vo": "Moskva",
+      "cv": "Мускав",
+      "ko": "모스크바",
+      "sc": "Mosca",
+      "ar": "موسكو",
+      "ba": "Мәскәү",
+      "an": "Moscú",
+      "mn": "Москва",
+      "ro": "Moscova",
+      "av": "Москва",
+      "cs": "Moskva",
+      "en": "Moscow",
+      "mg": "Moskva",
+      "ps": "مسکو",
+      "de": "Moskau",
+      "tl": "Moscow",
+      "za": "Moscow",
+      "nl": "Moskou",
+      "gd": "Moscobha",
+      "sk": "Moskva",
+      "dz": "མོསི་ཀོ",
+      "ss": "Moscow",
+      "az": "Moskva",
+      "hu": "Moszkva",
+      "is": "Moskva",
+      "tt": "Мәскәү",
+      "zu": "IMoskwa"
+    }</value>
+  </data>
+</root>
